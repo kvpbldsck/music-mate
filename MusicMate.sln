@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMate.AppHost", "MusicMate.AppHost\MusicMate.AppHost.csproj", "{4C6D985C-DA76-4727-B933-A0074C24BAE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMate.ServiceDefaults", "backend\MusicMate.ServiceDefaults\MusicMate.ServiceDefaults.csproj", "{E9FD6757-EE46-4F6E-9D42-E4CC245B0EEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMate.ApiService", "backend\MusicMate.ApiService\MusicMate.ApiService.csproj", "{FBDB2B7A-95E5-4282-BF60-948EC3C718ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{1B267CBD-E631-4407-A4C7-383B1218762F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C6D985C-DA76-4727-B933-A0074C24BAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6D985C-DA76-4727-B933-A0074C24BAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6D985C-DA76-4727-B933-A0074C24BAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6D985C-DA76-4727-B933-A0074C24BAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FD6757-EE46-4F6E-9D42-E4CC245B0EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FD6757-EE46-4F6E-9D42-E4CC245B0EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FD6757-EE46-4F6E-9D42-E4CC245B0EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FD6757-EE46-4F6E-9D42-E4CC245B0EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBDB2B7A-95E5-4282-BF60-948EC3C718ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDB2B7A-95E5-4282-BF60-948EC3C718ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDB2B7A-95E5-4282-BF60-948EC3C718ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDB2B7A-95E5-4282-BF60-948EC3C718ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB784D9E-982D-4C44-916F-23A4E4814FEE}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBDB2B7A-95E5-4282-BF60-948EC3C718ED} = {1B267CBD-E631-4407-A4C7-383B1218762F}
+		{E9FD6757-EE46-4F6E-9D42-E4CC245B0EEA} = {1B267CBD-E631-4407-A4C7-383B1218762F}
+	EndGlobalSection
+EndGlobal
